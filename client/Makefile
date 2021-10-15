@@ -1,2 +1,2 @@
 build:
-	sudo docker build -t api-server .
+	sudo docker build -t react-app .
