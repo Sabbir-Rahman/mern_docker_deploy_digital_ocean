@@ -24,7 +24,7 @@ app.get('/', (req,res) => {
     res.send('Hello to Quotes API')
 })
 
-const PORT = process.env.PORT 
+const PORT = 5000
 const URL = 'mongodb+srv://sabbir:sabbir@cluster0.mmfp5.mongodb.net/myFirstDatabase?retryWrites=true&w=majority'
 
 mongoose.connect(URL, { useNewUrlParser: true, useUnifiedTopology: true})
